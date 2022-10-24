@@ -1,0 +1,33 @@
+table {
+    width: 200px;
+    text-align: left;
+  }
+.parentdiv {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+#children {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+  div.square {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border: 5px solid rgb(30, 16, 137);
+    background-color: rgb(192, 14, 14);
+    padding: 50px;
+    text-align: right;
+    font-size: 20pt;
+  }
+  div.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    font-size: 40pt;
+  }

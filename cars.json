@@ -1,0 +1,78 @@
+{
+    "dealers":[
+        {    
+            "dealership1": {
+                "employee": [
+                    { 
+                        "name": "Iris",
+                        "jobtitle": "assistant",
+                        "salary": "60k"
+                    },
+                    {
+                        "name": "Finn",
+                        "jobtitle": "manager",
+                        "salary": "80k"
+                    }
+                ],
+                "car": [
+                    { 
+                        "model": "focus",
+                        "manufacturer": "ford",
+                        "year": "2003",
+                        "price": "4k"
+                    },
+                    {
+                        "model": "fit",
+                        "manufacturer": "honda",
+                        "year": "2007",
+                        "price": "5k"
+                    },
+                    {
+                        "model": "swift",
+                        "manufacturer": "suzuki",
+                        "year": "2010",
+                        "price": "8k"
+                    }
+                ]
+
+            }
+        },
+        {    
+            "dealership2": {
+                "employee": [
+                    { 
+                        "name": "Meep",
+                        "jobtitle": "feline1",
+                        "salary": "2k"
+                    },
+                    {
+                        "name": "Camee",
+                        "jobtitle": "feline2",
+                        "salary": "1k"
+                    }
+                ],
+                "car": [
+                    { 
+                        "model": "focusmeow",
+                        "manufacturer": "fordmeow",
+                        "year": "2003meow",
+                        "price": "4kmeow"
+                    },
+                    {
+                        "model": "fitmeow",
+                        "manufacturer": "hondameow",
+                        "year": "2007meow",
+                        "price": "5kmeow"
+                    },
+                    {
+                        "model": "swiftmeow",
+                        "manufacturer": "suzukimeow",
+                        "year": "2010meow",
+                        "price": "8kmeow"
+                    }
+                ]
+            }
+        }
+
+    ]
+}

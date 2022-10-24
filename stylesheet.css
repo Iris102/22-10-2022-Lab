@@ -1,5 +1,82 @@
 
-.img {
-    display: flex;
-    justify-content: center;
+img {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+}
+thead {
+    padding: 1px;
+}
+.table-0 {
+    margin: 150px auto;
+    border: 1px solid black;
+    font-size: 12pt;
+    height: 200px;
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden
     }
+.table-1 {
+    margin: 150px auto;
+    border: 5px solid black;
+    font-size: 15pt;
+    height: 150px;
+    width: 70%;
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden
+    }
+.table-2 {
+    padding: 0px;
+    margin: 150px auto;
+    border: 1px solid black;
+    border-style: none;
+    font-size: 15pt;
+    height: 3px;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden
+}
+p {
+    text-align: center;
+    font-size: 20pt;
+    font-family: Calibri, Myriad;
+}
+td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 50px;
+    padding: 10px;
+    width: 15%
+    }
+th {
+    border: 5px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    border-collapse: collapse;
+    height: 50px;
+    padding: 10px;
+    width:10%
+}
+#content {
+    text-align: left;
+    }
+#odd {
+    background-color: rgb(162, 221, 168);
+}
+#oddhead {
+    background-color: rgb(119, 195, 126);
+    font-size: 25pt;
+}
+#even {
+    background-color: white;
+}

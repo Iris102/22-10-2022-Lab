@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="formstylesheet.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <table>
+    <form>
+        <tr>
+            <th>
+                <label for="name">Name:</label>
+            </th>
+            <th>
+                <input type="text" id="name" name="name" />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="address">Address:</label>
+            </th>
+            <th>
+                <input type="text" id="address" name="address" />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="city">City:</label>
+            </th>
+            <th>
+                <input type="text" id="city" name="city" />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="state">State:</label>
+            </th>
+            <th>
+                <input type="text" id="state" name="state" />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="zip">Zip:</label>
+            </th>
+            <th>
+                <input type="text" id="zip" name="zip" />
+            </th>
+        </tr>
+        <tr>
+            <th>
+               <label for="magazine">Magazine:</label>
+            </th>
+            <th>
+                <select id="magazine" name="magazine">
+                <option value="newsweek">Newsweek</option>
+                <option value="oldweek">Oldweek</option>
+                <option value="yesterweek">Yesterweek</option>
+                <option value="ancientweek">Ancientweek</option>
+                </select>   
+            </th>   
+            
+        </tr>
+        <tr>
+            <th>
+                <label for="subscription">Subcription:</label><br>
+            </th>
+            <th>
+                <input type="radio" id="1-year" name="1-year" value="1-year">
+                <label for="1-year">1 year</label>
+                <input type="radio" id="2-year" name="2-year" value="2-year">
+                <label for="2-year">2 year</label>
+            </th>    
+        <tr>
+            <th colspan = "2" class="button">
+                <button type="submit">Send Your Order</button>
+            </th>
+        </tr>   
+            
+    </form>
+    </table>
+    <div class = "parentdiv">
+        <div class = "square" id = "children"><u>Hi</u></div>
+        <div class = "circle" id = "children">Hi</div>
+    </div>
+</body>
+</html>
